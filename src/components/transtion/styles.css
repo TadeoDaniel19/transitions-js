@@ -1,0 +1,8 @@
+.square {
+  border-radius: 20px;
+  margin: auto;
+  height: 40vh;
+  width: 40vh;
+  background-image: linear-gradient(to bottom, #ff9999, #ff5b5b),
+    linear-gradient(to bottom, #e5b1ff, #e5b1ff);
+}

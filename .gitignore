@@ -1,16 +1,28 @@
+<<<<<<< HEAD
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
 # dependencies
 /node_modules
+=======
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+>>>>>>> 6ac9087 (first config)
 
 # testing
 /coverage
 
 # production
 /build
+<<<<<<< HEAD
 /built-lambda
 
 /.netlify
+=======
+>>>>>>> 6ac9087 (first config)
 
 # misc
 .DS_Store

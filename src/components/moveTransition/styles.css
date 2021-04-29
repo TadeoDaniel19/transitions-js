@@ -1,0 +1,28 @@
+.motion-square {
+  margin: auto;
+}
+
+.drag-constraint {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  width: 380px;
+  margin: auto;
+  background-color: #b1e8ff;
+}
+
+.square {
+  border-radius: 20px;
+  margin: auto;
+  height: 90px;
+  width: 90px;
+}
+
+.square.orange {
+  background-image: linear-gradient(to bottom, #ff9999, #ff5b5b),
+    linear-gradient(to bottom, #e5b1ff, #e5b1ff);
+}
+
+.square.blue {
+  background-color: #162365;
+}

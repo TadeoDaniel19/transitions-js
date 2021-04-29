@@ -13,7 +13,7 @@ import Simple from './components/simpleAnimation';
 const Routes = [
   {
     path: '/',
-    sidebarName: 'Home',
+    sidebarName: 'Inicio',
     component: Home,
   },
   {
@@ -28,7 +28,7 @@ const Routes = [
   },
   {
     path: '/switch',
-    sidebarName: 'Switch Button Animation',
+    sidebarName: 'Botón Switch',
     component: SwitchButton,
   },
   {

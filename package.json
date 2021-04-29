@@ -9,6 +9,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "@types/react-router-dom": "^5.1.4",
+    "axios": "^0.21.1",
     "framer-motion": "^4.1.11",
     "just-animate": "^2.6.2",
     "lodash-es": "^4.17.21",

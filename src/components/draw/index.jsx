@@ -2,6 +2,7 @@ import * as React from "react";
 import { useRef } from "react";
 import { motion } from "framer-motion";
 import { Grid } from '@material-ui/core';
+import './styles.css';
 
 const Draw = () => {
   const constraintsRef = useRef(null);
@@ -15,6 +16,7 @@ const Draw = () => {
       justifyContent: 'center',
       alignItems: 'center',
     }}
+    className="bodyGrid"
     container 
     justify="space-evenly" 
     direction="row">

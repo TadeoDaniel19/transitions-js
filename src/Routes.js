@@ -8,6 +8,7 @@ import DragWithMotionValue from './components/moveTransition';
 import { Example } from './components/checkbox';
 import AppleWatchDock from './components/scroll';
 import Draw from './components/draw';
+import Simple from './components/simpleAnimation';
 
 const Routes = [
   {
@@ -59,6 +60,11 @@ const Routes = [
     path: '/draw',
     sidebarName: 'Arrastrar',
     component: Draw,
+  },
+  {
+    path: '/simple',
+    sidebarName: 'Rebote',
+    component: Simple,
   },
 ];
 

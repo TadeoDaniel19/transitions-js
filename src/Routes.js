@@ -7,6 +7,7 @@ import SimpleTranslation from './components/transtion';
 import DragWithMotionValue from './components/moveTransition';
 import { Example } from './components/checkbox';
 import AppleWatchDock from './components/scroll';
+import Draw from './components/draw';
 
 const Routes = [
   {
@@ -16,12 +17,12 @@ const Routes = [
   },
   {
     path: '/drag-div',
-    sidebarName: 'Show and hide Animation',
+    sidebarName: 'Ver/ocultar animación',
     component: DraggableList,
   },
   {
     path: '/boucing',
-    sidebarName: 'Bouncing ball',
+    sidebarName: 'Pelota Rebotando',
     component: BouncingBall,
   },
   {
@@ -36,7 +37,7 @@ const Routes = [
   },
   {
     path: '/balls',
-    sidebarName: 'Balls',
+    sidebarName: 'Pelotas',
     component: RubberBall,
   },
   {
@@ -53,7 +54,12 @@ const Routes = [
     path: '/scroll-s',
     sidebarName: 'Scroll',
     component: AppleWatchDock,
-  }
+  },
+  {
+    path: '/draw',
+    sidebarName: 'Arrastrar',
+    component: Draw,
+  },
 ];
 
 export default Routes;
